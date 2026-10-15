@@ -62,6 +62,9 @@ El código generado:
 
 - Copilot no incluyó datos, así que se generó un `products.csv` de ejemplo con 200 productos sintéticos (semilla fija para que sea reproducible).
 - Al ejecutarlo, scikit-learn mostraba la advertencia `X does not have valid feature names`, porque la consulta se pasaba como lista. Se corrigió pasándola como `DataFrame` con los mismos nombres de columna.
+- Le pedí a Copilot Chat "arregla el código para que funcione": validó la ejecución y corrigió el formato (indentación con espacios en vez de tabulaciones).
+
+![Copilot Chat corrigiendo el código](capturas/04b-arreglando-errores-copilot.png)
 
 ### 5. Ejecución
 
